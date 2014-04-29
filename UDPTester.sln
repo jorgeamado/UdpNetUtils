@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPhone_utility", "IPhone_utility\IPhone_utility.csproj", "{15A6614E-EEA3-4680-984C-FEFDC1C8B09C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDP_Server", "Server_utility\UDP_Server.csproj", "{5883DA1D-5645-46F0-818C-A562633D6A26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15A6614E-EEA3-4680-984C-FEFDC1C8B09C}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{15A6614E-EEA3-4680-984C-FEFDC1C8B09C}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{15A6614E-EEA3-4680-984C-FEFDC1C8B09C}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{15A6614E-EEA3-4680-984C-FEFDC1C8B09C}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{15A6614E-EEA3-4680-984C-FEFDC1C8B09C}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{15A6614E-EEA3-4680-984C-FEFDC1C8B09C}.Debug|iPhone.Build.0 = Debug|iPhone
+		{15A6614E-EEA3-4680-984C-FEFDC1C8B09C}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{15A6614E-EEA3-4680-984C-FEFDC1C8B09C}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{15A6614E-EEA3-4680-984C-FEFDC1C8B09C}.Debug|x86.ActiveCfg = Debug|iPhoneSimulator
+		{15A6614E-EEA3-4680-984C-FEFDC1C8B09C}.Debug|x86.Build.0 = Debug|iPhoneSimulator
+		{15A6614E-EEA3-4680-984C-FEFDC1C8B09C}.Release|iPhone.ActiveCfg = Release|iPhone
+		{15A6614E-EEA3-4680-984C-FEFDC1C8B09C}.Release|iPhone.Build.0 = Release|iPhone
+		{15A6614E-EEA3-4680-984C-FEFDC1C8B09C}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{15A6614E-EEA3-4680-984C-FEFDC1C8B09C}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{15A6614E-EEA3-4680-984C-FEFDC1C8B09C}.Release|x86.ActiveCfg = Release|iPhoneSimulator
+		{15A6614E-EEA3-4680-984C-FEFDC1C8B09C}.Release|x86.Build.0 = Release|iPhoneSimulator
+		{5883DA1D-5645-46F0-818C-A562633D6A26}.Ad-Hoc|iPhone.ActiveCfg = Debug|x86
+		{5883DA1D-5645-46F0-818C-A562633D6A26}.Ad-Hoc|iPhone.Build.0 = Debug|x86
+		{5883DA1D-5645-46F0-818C-A562633D6A26}.AppStore|iPhone.ActiveCfg = Debug|x86
+		{5883DA1D-5645-46F0-818C-A562633D6A26}.AppStore|iPhone.Build.0 = Debug|x86
+		{5883DA1D-5645-46F0-818C-A562633D6A26}.Debug|iPhone.ActiveCfg = Debug|x86
+		{5883DA1D-5645-46F0-818C-A562633D6A26}.Debug|iPhone.Build.0 = Debug|x86
+		{5883DA1D-5645-46F0-818C-A562633D6A26}.Debug|iPhoneSimulator.ActiveCfg = Debug|x86
+		{5883DA1D-5645-46F0-818C-A562633D6A26}.Debug|iPhoneSimulator.Build.0 = Debug|x86
+		{5883DA1D-5645-46F0-818C-A562633D6A26}.Debug|x86.ActiveCfg = Debug|x86
+		{5883DA1D-5645-46F0-818C-A562633D6A26}.Debug|x86.Build.0 = Debug|x86
+		{5883DA1D-5645-46F0-818C-A562633D6A26}.Release|iPhone.ActiveCfg = Release|x86
+		{5883DA1D-5645-46F0-818C-A562633D6A26}.Release|iPhone.Build.0 = Release|x86
+		{5883DA1D-5645-46F0-818C-A562633D6A26}.Release|iPhoneSimulator.ActiveCfg = Release|x86
+		{5883DA1D-5645-46F0-818C-A562633D6A26}.Release|iPhoneSimulator.Build.0 = Release|x86
+		{5883DA1D-5645-46F0-818C-A562633D6A26}.Release|x86.ActiveCfg = Release|x86
+		{5883DA1D-5645-46F0-818C-A562633D6A26}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = IPhone_utility\IPhone_utility.csproj
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.TabsToSpaces = False
+		$1.inheritsSet = VisualStudio
+		$1.inheritsScope = text/plain
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.IndentSwitchBody = True
+		$2.AnonymousMethodBraceStyle = NextLine
+		$2.PropertyBraceStyle = NextLine
+		$2.PropertyGetBraceStyle = NextLine
+		$2.PropertySetBraceStyle = NextLine
+		$2.EventBraceStyle = NextLine
+		$2.EventAddBraceStyle = NextLine
+		$2.EventRemoveBraceStyle = NextLine
+		$2.StatementBraceStyle = NextLine
+		$2.ElseNewLinePlacement = NewLine
+		$2.CatchNewLinePlacement = NewLine
+		$2.FinallyNewLinePlacement = NewLine
+		$2.WhileNewLinePlacement = DoNotCare
+		$2.ArrayInitializerWrapping = DoNotChange
+		$2.ArrayInitializerBraceStyle = NextLine
+		$2.BeforeMethodDeclarationParentheses = False
+		$2.BeforeMethodCallParentheses = False
+		$2.BeforeConstructorDeclarationParentheses = False
+		$2.BeforeDelegateDeclarationParentheses = False
+		$2.NewParentheses = False
+		$2.SpacesBeforeBrackets = False
+		$2.inheritsSet = Mono
+		$2.inheritsScope = text/x-csharp
+		$2.scope = text/x-csharp
+		$0.StandardHeader = $3
+		$3.Text = 
+		$3.IncludeInNewFiles = True
+	EndGlobalSection
+EndGlobal
